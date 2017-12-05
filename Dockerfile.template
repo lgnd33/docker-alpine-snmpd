@@ -1,4 +1,4 @@
-FROM multiarch/alpine:x86_64-v3.6
+FROM multiarch/alpine:{{ARCH}}-v3.7
 MAINTAINER Lazar Obradovic <laz.obradovic@gmail.com>
 
 RUN apk add --update \
