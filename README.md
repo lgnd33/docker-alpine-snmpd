@@ -6,8 +6,7 @@ Small (19.8MB for x86_64 and 18.8MB for aarch64), simple and multi-arch Net-SNMP
 ## Build
 ```./build.sh```
 
-This will build necessary container on the current machine, using current arch.
-Tested on:
+This will build necessary container on the local machine, using current arch, determined by uname -m. This is currently tested on:
 
 | Arch    | Platform        | image size |
 | ------- | --------------- | ---------- |
@@ -22,4 +21,4 @@ Tested on:
 That's it.
 
 ## Configuration
-Default configuration is supplied wiht
+Default configuration opens ```161/udp``` and allows non-authenticated queries to few interesting OIDs. Community is ```public```.
