@@ -1,7 +1,7 @@
-# docker-alpine-snmpd
+# docker-net-snmpd
 NetSNMP in Docker (Alpine baseimage)
 
-Small (19.8MB for x86_64 and 18.8MB for aarch64), simple and multi-arch Net-SNMP container.
+Small (19.8MB for x86_64 and 18.8MB for aarch64), simple and multi-arch Net-SNMP container. Exposes v2 port (161/udp) and answers back to simple queries.
 
 ## Build
 ```./build.sh```
